@@ -1,0 +1,5 @@
+C:/Users/seba2/CLionProjects/QTPLIS/build-QTPLIS-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/CMakeFiles/QTPLIS.dir
+C:/Users/seba2/CLionProjects/QTPLIS/build-QTPLIS-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/seba2/CLionProjects/QTPLIS/build-QTPLIS-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/seba2/CLionProjects/QTPLIS/build-QTPLIS-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/CMakeFiles/QTPLIS_autogen_timestamp_deps.dir
+C:/Users/seba2/CLionProjects/QTPLIS/build-QTPLIS-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/CMakeFiles/QTPLIS_autogen.dir

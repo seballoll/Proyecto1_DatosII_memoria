@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QTPLIS",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QTPLIS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTPLIS-Release-24ae600a3e743ab5b110.json",
+					"name" : "QTPLIS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QTPLIS_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTPLIS_autogen-Release-6e45a5dbc35771de8476.json",
+					"name" : "QTPLIS_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QTPLIS_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTPLIS_autogen_timestamp_deps-Release-720e829f6f24362be775.json",
+					"name" : "QTPLIS_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/seba2/CLionProjects/QTPLIS/build-QTPLIS-Desktop_Qt_6_2_3_MinGW_64_bit-Release",
+		"source" : "C:/Users/seba2/CLionProjects/QTPLIS/QTPLIS"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

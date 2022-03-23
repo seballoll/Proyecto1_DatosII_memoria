@@ -1,0 +1,10 @@
+# ninja log v5
+10	784	6697312270181914	build.ninja	1f38f920e134e424
+1	1756	6697259163548446	QTPLIS_autogen/timestamp	9931180403e0bb76
+1	1756	6697259163548446	QTPLIS_autogen/mocs_compilation.cpp	9931180403e0bb76
+5728	6080	6697259210087552	QTPLIS.exe	4f6674207cb4853e
+1	1756	6697259163548446	C:/Users/seba2/CLionProjects/QTPLIS/build-QTPLIS-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/QTPLIS_autogen/timestamp	9931180403e0bb76
+1768	5043	6697259199767507	CMakeFiles/QTPLIS.dir/main.cpp.obj	316b47f6921a5b14
+1	1756	6697259163548446	C:/Users/seba2/CLionProjects/QTPLIS/build-QTPLIS-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/QTPLIS_autogen/mocs_compilation.cpp	9931180403e0bb76
+1760	5727	6697259206587198	CMakeFiles/QTPLIS.dir/bigwindow.cpp.obj	db952a14edf2c19c
+1757	4773	6697259197067177	CMakeFiles/QTPLIS.dir/QTPLIS_autogen/mocs_compilation.cpp.obj	22a5ebad58c325ca
