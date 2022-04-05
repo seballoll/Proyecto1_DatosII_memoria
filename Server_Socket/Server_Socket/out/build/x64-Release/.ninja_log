@@ -1,0 +1,4 @@
+# ninja log v5
+1	385	6708486469669182	CMakeFiles/Server_Socket.dir/set_get.cpp.obj	77c8770db08ec983
+3	735	6708486473170073	CMakeFiles/Server_Socket.dir/Server_Socket.cpp.obj	433ec09b8cb8f4be
+735	1156	6708486474681666	Server_Socket.exe	2199dae54ab742cb

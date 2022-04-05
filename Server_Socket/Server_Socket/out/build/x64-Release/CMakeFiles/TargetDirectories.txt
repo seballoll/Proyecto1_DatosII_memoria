@@ -1,0 +1,3 @@
+C:/Users/seba2/source/repos/Server_Socket/Server_Socket/out/build/x64-Release/CMakeFiles/Server_Socket.dir
+C:/Users/seba2/source/repos/Server_Socket/Server_Socket/out/build/x64-Release/CMakeFiles/edit_cache.dir
+C:/Users/seba2/source/repos/Server_Socket/Server_Socket/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
