@@ -84,7 +84,14 @@ build Server_Socket\CMakeFiles\Server_Socket.dir\Server_Socket.cpp.obj: CXX_COMP
   TARGET_COMPILE_PDB = Server_Socket\CMakeFiles\Server_Socket.dir\
   TARGET_PDB = Server_Socket\Server_Socket.pdb
 
-build Server_Socket\CMakeFiles\Server_Socket.dir\set_get.cpp.obj: CXX_COMPILER__Server_Socket_Release C$:\Users\seba2\Documents\GitHub\Proyecto1_DatosII_memoria\Server_Socket\Server_Socket\set_get.cpp || cmake_object_order_depends_target_Server_Socket
+build Server_Socket\CMakeFiles\Server_Socket.dir\Player.cpp.obj: CXX_COMPILER__Server_Socket_Release C$:\Users\seba2\Documents\GitHub\Proyecto1_DatosII_memoria\Server_Socket\Server_Socket\Player.cpp || cmake_object_order_depends_target_Server_Socket
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
+  OBJECT_DIR = Server_Socket\CMakeFiles\Server_Socket.dir
+  OBJECT_FILE_DIR = Server_Socket\CMakeFiles\Server_Socket.dir
+  TARGET_COMPILE_PDB = Server_Socket\CMakeFiles\Server_Socket.dir\
+  TARGET_PDB = Server_Socket\Server_Socket.pdb
+
+build Server_Socket\CMakeFiles\Server_Socket.dir\Starter.cpp.obj: CXX_COMPILER__Server_Socket_Release C$:\Users\seba2\Documents\GitHub\Proyecto1_DatosII_memoria\Server_Socket\Server_Socket\Starter.cpp || cmake_object_order_depends_target_Server_Socket
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
   OBJECT_DIR = Server_Socket\CMakeFiles\Server_Socket.dir
   OBJECT_FILE_DIR = Server_Socket\CMakeFiles\Server_Socket.dir
@@ -99,7 +106,7 @@ build Server_Socket\CMakeFiles\Server_Socket.dir\set_get.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable Server_Socket\Server_Socket.exe
 
-build Server_Socket\Server_Socket.exe: CXX_EXECUTABLE_LINKER__Server_Socket_Release Server_Socket\CMakeFiles\Server_Socket.dir\Server_Socket.cpp.obj Server_Socket\CMakeFiles\Server_Socket.dir\set_get.cpp.obj
+build Server_Socket\Server_Socket.exe: CXX_EXECUTABLE_LINKER__Server_Socket_Release Server_Socket\CMakeFiles\Server_Socket.dir\Server_Socket.cpp.obj Server_Socket\CMakeFiles\Server_Socket.dir\Player.cpp.obj Server_Socket\CMakeFiles\Server_Socket.dir\Starter.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
   LINK_FLAGS = /machine:x64 /INCREMENTAL:NO /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

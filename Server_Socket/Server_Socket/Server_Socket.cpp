@@ -2,13 +2,16 @@
 //
 
 #include "server_socket.h"
-#include "set_get.h"
+#include "Player.h"
 using namespace std;
 
-int main()
-{
+Server::Server() {
+    
+}
+
+void Server::Start_Server() {
     //main locals
-    long SUCCESSFUL;
+    
     WSAData WinSockData;
     WORD DLLVERSION;
     char MESSAGE[12];
@@ -18,7 +21,7 @@ int main()
     DLLVERSION = MAKEWORD(2, 1); //macro to create WORD value by concatenating its arguments
 
     //Start Winsock DLL
-    SUCCESSFUL = WSAStartup(DLLVERSION, &WinSockData);
+    Server::set_SUCC(WSAStartup(DLLVERSION, &WinSockData)) ;
 
     //Create Socket Structure
     SOCKADDR_IN ADDRESS;
@@ -26,7 +29,7 @@ int main()
 
     //Create Sockets
     SOCKET sock_LISTEN; //listen for incoming connection
-    SOCKET sock_CONNECTION; //active if connection found
+     //active if connection found
 
     //socket Arguments: AF_INET = internet domain,
     //SOCK_STREAM = connection oriented with TCP
@@ -38,32 +41,45 @@ int main()
     sock_LISTEN = socket(AF_INET, SOCK_STREAM, 0);
     bind(sock_LISTEN, (SOCKADDR*)&ADDRESS, sizeof(ADDRESS));
     listen(sock_LISTEN, SOMAXCONN); //listen without limits
-    Player pepe{"",0 };
- 
+
 
 
     //If connection found:
     for (;;)
     {
         cout << "\n\tSERVER: WAITING for incoming connection...";
-        if ((sock_CONNECTION = accept(sock_LISTEN, (SOCKADDR*)&ADDRESS, &AddressSize)))
+        if (Server::set_sock_CON( accept(sock_LISTEN, (SOCKADDR*)&ADDRESS, &AddressSize)))
         {
             cout << "\n\tA connection found!" << endl;
             cout << "\n\t Writing to client..." << endl;
-            SUCCESSFUL = send(sock_CONNECTION, "Welcome! You have connected to Banana SERVER!", 46, 0);
-            cout << "\n\t sent!" << endl<<endl;
+            send(Server::get_sock_CON(), "Welcome! You have connected to Banana SERVER!", 46, 0);
+            cout << "\n\t sent!" << endl << endl;
             cout << "\n\t Receiving Player name from Client" << endl;
-            SUCCESSFUL = recv(sock_CONNECTION, MESSAGE, sizeof(MESSAGE), 0);
+            Server::set_SUCC(recv(Server::get_sock_CON(), MESSAGE, sizeof(MESSAGE), 0));
             converter = MESSAGE;
-            cout << "\n\t MESSAGE FROM THE CLIENT: " << endl << converter;
-            pepe.setName(converter);
-            pepe.print_info();
+            cout << "\n\t MESSAGE FROM THE CLIENT: " << endl << "\n\t"<<converter;
+            this->keep_reading();
 
         }
     }
-
-    int send_message(); {
-
-    }
+   
 }
+void Server::keep_reading() {
+    cout << "\n\t Server kept reading"<<endl;
+}
+
+void Server::set_SUCC(long new_SUCC) {
+    Server::SUCCESFUL = new_SUCC;
+};
+long Server::get_SUCC() {
+    return Server::SUCCESFUL;
+};
+int Server::set_sock_CON(SOCKET new_Sock) {
+    Server::sock_CONNECTION = new_Sock;
+    return 1;
+};
+SOCKET Server::get_sock_CON() {
+    return Server::sock_CONNECTION;
+};
+
 

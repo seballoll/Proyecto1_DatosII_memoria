@@ -5,7 +5,7 @@ public class Client_Socket implements Serializable {
     static Socket s;
     static String username ;
     static InputStreamReader RD;
-    static BufferedReader BFRD;
+    
     static PrintWriter WRT;
     static BufferedWriter BFWRT;
     /**
@@ -33,7 +33,7 @@ public class Client_Socket implements Serializable {
            System.out.println("input stream error");
             e.printStackTrace();
         }
-        BFRD = new BufferedReader(RD);
+        
         try {
             WRT = new PrintWriter(s.getOutputStream());
         } catch (IOException e) {
@@ -64,10 +64,7 @@ public class Client_Socket implements Serializable {
                 e.printStackTrace();
             }
     }
-    public void Receive_ser_pos() throws IOException, ClassNotFoundException {
-       
-
-    }
+    
     public  void Send_client_pos(int[] client_pos) throws IOException {
         ObjectOutputStream OOSTR = new ObjectOutputStream(s.getOutputStream());
         OOSTR.writeUnshared(client_pos);
