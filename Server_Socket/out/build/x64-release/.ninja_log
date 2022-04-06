@@ -1,9 +1,6 @@
 # ninja log v5
-1	691	6703333581734075	Server_Socket/CMakeFiles/Server_Socket.dir/Server_Socket.cpp.obj	18cec435f7c05da6
-692	821	6703333583030603	Server_Socket/Server_Socket.exe	a45a816e6d7878a6
-0	697	6708266200050369	Server_Socket/CMakeFiles/Server_Socket.dir/set_get.cpp.obj	80a4fb908839b10f
-6	890	6708266201985191	Server_Socket/CMakeFiles/Server_Socket.dir/Server_Socket.cpp.obj	18cec435f7c05da6
-891	1299	6708266206046318	Server_Socket/Server_Socket.exe	a2592586d15d2be4
-0	1150	6708413614082504	Server_Socket/CMakeFiles/Server_Socket.dir/Server_Socket.cpp.obj	18cec435f7c05da6
-1151	1424	6708413616804082	Server_Socket/Server_Socket.exe	a2592586d15d2be4
-1	888	6708415011776332	Server_Socket/CMakeFiles/Server_Socket.dir/Server_Socket.cpp.obj	18cec435f7c05da6
+0	398	6708502029696828	Server_Socket/CMakeFiles/Server_Socket.dir/set_get.cpp.obj	5b2cb5bad553d643
+3	786	6708502033588064	Server_Socket/CMakeFiles/Server_Socket.dir/Server_Socket.cpp.obj	99a0be99c53ab7cc
+787	934	6708502035048860	Server_Socket/Server_Socket.exe	a2592586d15d2be4
+1	1636	6708954106061362	Server_Socket/CMakeFiles/Server_Socket.dir/Server_Socket.cpp.obj	99a0be99c53ab7cc
+1640	2043	6708954110173407	Server_Socket/Server_Socket.exe	a2592586d15d2be4

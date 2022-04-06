@@ -47,7 +47,7 @@ rule CXX_EXECUTABLE_LINKER__Server_Socket_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\seba2\source\repos\Server_Socket -BC:\Users\seba2\source\repos\Server_Socket\out\build\x64-release
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\seba2\Documents\GitHub\Proyecto1_DatosII_memoria\Server_Socket -BC:\Users\seba2\Documents\GitHub\Proyecto1_DatosII_memoria\Server_Socket\out\build\x64-release
   description = Re-running CMake...
   generator = 1
 

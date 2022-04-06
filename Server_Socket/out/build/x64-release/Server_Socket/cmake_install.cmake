@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/seba2/source/repos/Server_Socket/Server_Socket
+# Install script for directory: C:/Users/seba2/Documents/GitHub/Proyecto1_DatosII_memoria/Server_Socket/Server_Socket
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/seba2/source/repos/Server_Socket/out/install/x64-release")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/seba2/Documents/GitHub/Proyecto1_DatosII_memoria/Server_Socket/out/install/x64-release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,5 +1,5 @@
-C:/Users/seba2/source/repos/Server_Socket/out/build/x64-release/CMakeFiles/edit_cache.dir
-C:/Users/seba2/source/repos/Server_Socket/out/build/x64-release/CMakeFiles/rebuild_cache.dir
-C:/Users/seba2/source/repos/Server_Socket/out/build/x64-release/Server_Socket/CMakeFiles/Server_Socket.dir
-C:/Users/seba2/source/repos/Server_Socket/out/build/x64-release/Server_Socket/CMakeFiles/edit_cache.dir
-C:/Users/seba2/source/repos/Server_Socket/out/build/x64-release/Server_Socket/CMakeFiles/rebuild_cache.dir
+C:/Users/seba2/Documents/GitHub/Proyecto1_DatosII_memoria/Server_Socket/out/build/x64-release/CMakeFiles/edit_cache.dir
+C:/Users/seba2/Documents/GitHub/Proyecto1_DatosII_memoria/Server_Socket/out/build/x64-release/CMakeFiles/rebuild_cache.dir
+C:/Users/seba2/Documents/GitHub/Proyecto1_DatosII_memoria/Server_Socket/out/build/x64-release/Server_Socket/CMakeFiles/Server_Socket.dir
+C:/Users/seba2/Documents/GitHub/Proyecto1_DatosII_memoria/Server_Socket/out/build/x64-release/Server_Socket/CMakeFiles/edit_cache.dir
+C:/Users/seba2/Documents/GitHub/Proyecto1_DatosII_memoria/Server_Socket/out/build/x64-release/Server_Socket/CMakeFiles/rebuild_cache.dir
